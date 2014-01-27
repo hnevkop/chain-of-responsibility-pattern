@@ -6,5 +6,4 @@ public class UpperCaseFilter extends FilterBase<String>{
 	protected String process(String input) {
 		return input.toUpperCase();
 	}
-	
 }

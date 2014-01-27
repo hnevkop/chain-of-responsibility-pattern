@@ -1,10 +1,10 @@
 package com.hnevkop.integration.pipe;
 
-public class LowerCaseFilter extends FilterBase<String>{
+public class ReplaceEby3Filter extends FilterBase<String>{
 
 	@Override
 	protected String process(String input) {
-		return input.toLowerCase();
+		return input.replace("E","3");
 	}
 	
 }
