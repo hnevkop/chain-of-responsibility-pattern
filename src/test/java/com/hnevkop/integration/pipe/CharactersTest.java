@@ -10,14 +10,15 @@ import com.hnevkop.integration.pipe.ReplaceEby3Filter;
 public class CharactersTest {
 
 	@Test
-	public void test() {
+	public void testThePipeline() {
+		// define input string
 		String input = new String ("whatever");
-		System.out.println(input);
 		
+		// create the pipeline
 		Pipeline<String> pipeline = new Pipeline<String>();
-		UpperCaseFilter upperCaseFilter = new UpperCaseFilter();
 		
 		// add a first filter in the pipe
+		UpperCaseFilter upperCaseFilter = new UpperCaseFilter();
 		pipeline.register(upperCaseFilter);
 		Assert.assertEquals("WHATEVER", pipeline.execute(input));
 		
