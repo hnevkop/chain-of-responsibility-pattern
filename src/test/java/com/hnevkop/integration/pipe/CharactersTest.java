@@ -12,10 +12,10 @@ public class CharactersTest {
 	@Test
 	public void testThePipeline() {
 		// define input string
-		String input = new String ("whatever");
+		String input = "whatever";
 		
 		// create the pipeline
-		Pipeline<String> pipeline = new Pipeline<String>();
+		Pipeline<String> pipeline = new Pipeline<>();
 		
 		// add a first filter in the pipe
 		UpperCaseFilter upperCaseFilter = new UpperCaseFilter();

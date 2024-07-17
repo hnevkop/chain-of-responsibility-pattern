@@ -1,12 +1,6 @@
 package com.hnevkop.integration.pipe;
 
-/**
- * 
- * @author Premysl Hnevkovsky
- *
- * @param <T>
- */
 public interface Filter<T> {
-	public T execute(T input);
-	public void register(Filter<T> filter);
+	T execute(T input);
+	void register(Filter<T> filter);
 }
