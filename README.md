@@ -24,3 +24,6 @@ It also makes it easy to add new transformations (filters) or re-order existing 
 ### references: 
 - [Pipes And Filters](http://www.eaipatterns.com/PipesAndFilters.html)
 - [Architecture Pipe and Filter](http://www.dossier-andreas.net/software_architecture/pipe_and_filter.html)
+
+### Status
+[![Java CI with Maven](https://github.com/hnevkop/chain-of-responsibility-pattern/actions/workflows/maven.yml/badge.svg)](https://github.com/hnevkop/chain-of-responsibility-pattern/actions/workflows/maven.yml)
